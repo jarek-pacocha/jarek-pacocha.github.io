@@ -81,6 +81,11 @@ li{
     border-radius: 50%;
 }
 
+#project-pic{
+    width: 650px;
+    height: auto;
+}
+
 #email{
     color: var(--mainTextColor);
 }
