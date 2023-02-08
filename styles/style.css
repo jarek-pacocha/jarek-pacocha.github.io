@@ -174,3 +174,31 @@ img#project-pic{
 #back--to-top:hover{
     color: var(--mainLinkColor);
 }
+
+@media screen and (max-width:600px){
+
+    .section--page{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #wrapper--hero{
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    #profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+
+    #user-name{
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .card--work-history, .card--education-history{
+        border-left: none;
+        padding-left: 0;
+    }
+}
