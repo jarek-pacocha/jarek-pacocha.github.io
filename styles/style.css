@@ -175,7 +175,7 @@ img#project-pic{
     color: var(--mainLinkColor);
 }
 
-@media(max-width:600px){
+@media screen and (max-width:600px){
 
     .section--page{
         padding-top: 1em;
