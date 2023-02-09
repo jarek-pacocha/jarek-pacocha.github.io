@@ -90,7 +90,9 @@ li{
 
 img#project-pic{
     width: 650px;
+    max-width: 100%;
     height: auto;
+    border: 1px solid var(--mainBorderColor);
 }
 
 #email{
@@ -172,14 +174,9 @@ img#project-pic{
 }
 
 #back--to-top{
-    color: var(--mainTextColor);
     display: block;
     float: right;
     padding-bottom: 1.5em;
-}
-
-#back--to-top:hover{
-    color: var(--mainLinkColor);
 }
 
 .themeBtn{
