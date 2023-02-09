@@ -6,18 +6,28 @@
     <title>Jarek Pacocha</title>
     <meta name="description" content="A resume website by Jarek Pacocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="" id="theme-css" />
   </head>
   <body>
     <div id="container--main">
-      <a href="index.html">&#x2190; Go Back</a>
+      <div id="topbar">
+        <a href="../index.html">&#x2190; Go Back</a>
+        <section id="theme--toggle">
+          <p>
+            <button id="themeLight" class="themeBtn">Light</button>
+            <button id="themeDark" class="themeBtn">Dark</button>
+          </p>
+        </section>
+      </div>
       <h1>LinkFree</h1>
 
-      <a href="./assets/images/linkfree-screenshot.png" target="_blank"><img id="project-pic" src="./assets/images/linkfree-screenshot.png" /></a>
+      <a href="../assets/images/linkfree-screenshot.png" target="_blank"><img id="project-pic" src="../assets/images/linkfree-screenshot.png" /></a>
 
       <ul>
         <li><a href="https://linkfree.eddiehub.io/jarek-pacocha" target="_blank">Live Demo</a></li>
         <li><a href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/jarek-pacocha.json" target="_blank">Source code</a></li>
+        <li><a href="https://linkfree.eddiehub.io/docs" target="_blank">Full Documentation</a></li>
       </ul>
 
       <p>LinkFree is an Open Source project enabling anyone to showcase their content with a single link. You can create a profile by contributing to the repository on GitHub.</p>
@@ -41,7 +51,8 @@
         <li>Local Development</li>
         <li>Local development with Docker Compose</li>
       </ul>
-      <a href="https://linkfree.eddiehub.io/docs" target="_blank">Full Documentation</a>
+      <a id="back--to-top" href="#">&#x2191; Go to Top</a>
     </div>
+    <script src="../js/theme.js"></script>
   </body>
 </html>

@@ -6,19 +6,26 @@
     <title>Jarek Pacocha</title>
     <meta name="description" content="A resume website by Jarek Pacocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="" id="theme-css" />
   </head>
   <body>
     <div id="container--main">
+      <section id="theme--toggle">
+        <p>
+          <button id="themeLight" class="themeBtn">Light</button>
+          <button id="themeDark" class="themeBtn">Dark</button>
+        </p>
+      </section>
       <section id="wrapper--hero" class="section--page">
-        <img id="profile-pic" src="./assets/images/profile.jpg" />
+        <img id="profile-pic" src="../assets/images/profile.jpg" />
 
         <div>
           <h1 id="user-name">Jarek Pacocha</h1>
           <p id="bio">Python developer, Web developer, QA Tester, Open Source contributor. Interested in Data, Cloud, DevOps.</p>
           <p id="email">
-            📩
-            <a href="mailto:jarek.pacocha@gmail.com">jarek.pacocha@gmail.com</a>
+            📬
+            <a href="mailto:jarek.pacocha@gmail.com" id="email">jarek.pacocha@gmail.com</a>
           </p>
         </div>
       </section>
@@ -126,7 +133,7 @@
           <strong>🔸 Testronic | QA Tester</strong>
           <p>11.2014 - 01.2015</p>
           <p></p>
-          <ul>
+          <ul class="last--items">
             <li>Manual tester for RPG style web game</li>
             <li>Bug reporting, proposing solutions and further tests</li>
           </ul>
@@ -140,7 +147,7 @@
           <strong>🔸 Warsaw University of Life Sciences</strong>
           <p>2008-2011</p>
           <p>Bachelore’s Degree, Tourism and Recreation</p>
-          <ul>
+          <ul class="last--items">
             <li>Interfaculty studies, scholarship, final score: 5</li>
           </ul>
         </div>
@@ -149,14 +156,14 @@
       <section class="section--page">
         <h2>Projects & Contributions</h2>
         <div class="card--project">
-          <a href="#"><span>🔨 </span>Resume website (jarekpacocha.online) - HTML, CSS, JS, Git, GitHub</a>
+          <a href="../projects/resume-website.html"><span>🔨 </span>Resume website - jarekpacocha.online - HTML, CSS, JS, Git, GitHub</a>
         </div>
         <div class="card--project">
           <a href="https://github.com/jarek-pacocha" target="_blank"><span>🔨 </span>Open Source Contributions</a>
           <ul id="opensource--list">
             <li>
               🔸
-              <a href="linkfree.html" target=""><span></span>LinkFree</a>
+              <a href="../projects/linkfree.html" target=""><span></span>LinkFree</a>
             </li>
             <li>
               🔸
@@ -191,5 +198,6 @@
       </section>
       <a id="back--to-top" href="#">&#x2191; Go to Top</a>
     </div>
+    <script src="../js/theme.js"></script>
   </body>
 </html>
