@@ -3,7 +3,7 @@ let themeCSS = document.querySelector("link#theme-css");
 
 if (theme !== null){
     if (theme == "light"){
-        themeCSS.href = "styles/light.css";
+        themeCSS.href = "../styles/light.css";
         document.getElementById("themeLight").style.color = "#000";
         document.getElementById("themeLight").removeAttribute("style.background")
         document.getElementById("themeDark").style.background = "#000";
@@ -22,7 +22,7 @@ Array.from(document.querySelectorAll('button.themeBtn')).forEach(element => {
     element.addEventListener('click', (e) => {
         if (e.target.id == "themeLight"){
             localStorage.setItem('portfolio-theme', 'light');
-            themeCSS.href = "styles/light.css";
+            themeCSS.href = "../styles/light.css";
             document.getElementById("themeDark").style.background = "#000";
             document.getElementById("themeDark").style.color = "#fff";
             document.getElementById("themeLight").removeAttribute("style");
