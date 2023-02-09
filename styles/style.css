@@ -93,9 +93,20 @@ li{
     border-radius: 50%;
 }
 
+.project--images{
+    display: flex;
+    justify-content: space-between;
+}
+
 img#project-pic{
     width: 650px;
     max-width: 100%;
+    height: auto;
+    border: 1px solid var(--mainBorderColor);
+}
+
+img#project--resume-pic{
+    width: 300px;
     height: auto;
     border: 1px solid var(--mainBorderColor);
 }
@@ -208,6 +219,15 @@ img#project-pic{
     #wrapper--hero{
         gap: 1em;
         flex-direction: column;
+    }
+
+    .project--images{
+        flex-direction: column;
+    }
+
+    img#project--resume-pic{
+        width: 650px;
+        max-width: 100%;
     }
 
     #profile-pic{
