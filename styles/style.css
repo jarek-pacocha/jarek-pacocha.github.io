@@ -107,6 +107,7 @@ img#project-pic{
 
 img#project--resume-pic{
     width: 300px;
+    max-width: 100%;
     height: auto;
     border: 1px solid var(--mainBorderColor);
 }
@@ -243,5 +244,9 @@ img#project--resume-pic{
     .card--work-history, .card--education-history{
         border-left: none;
         padding-left: 0;
+    }
+
+    ul{
+        padding-left: 1em;
     }
 }
