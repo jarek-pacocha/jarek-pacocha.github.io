@@ -17,6 +17,16 @@
           <button id="themeDark" class="themeBtn">Dark</button>
         </p>
       </section>
+      <div class="dropdown not-selectable">
+        <a onclick="myFunction()" class="dropbtn">Jump to &#x21f3;</a>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#courses">Courses & Certifications</a>
+        </div>
+      </div>
       <section id="wrapper--hero" class="section--page">
         <img id="profile-pic" src="../assets/images/profile.jpg" />
 
@@ -49,7 +59,7 @@
           <li>🔸 Open Source Contributor with Git and GitHub experience</li>
         </ul>
       </section>
-      <section class="section--page">
+      <section class="section--page" id="skills">
         <h2>Tech Skills</h2>
 
         <div id="wrapper--skills__items">
@@ -102,7 +112,7 @@
         </div>
       </section>
 
-      <section class="section--page">
+      <section class="section--page" id="experience">
         <h2>Experience</h2>
 
         <div class="line-break"></div>
@@ -139,7 +149,7 @@
           </ul>
         </div>
       </section>
-      <section class="section--page">
+      <section class="section--page" id="education">
         <h2>Education</h2>
 
         <div class="line-break"></div>
@@ -153,7 +163,7 @@
         </div>
       </section>
 
-      <section class="section--page">
+      <section class="section--page" id="projects">
         <h2>Projects & Contributions</h2>
         <div class="card--project">
           <a href="../projects/resume-website.html"><span>🔨 </span>Resume website - jarekpacocha.online - HTML, CSS, JS, Git, GitHub</a>
@@ -184,7 +194,7 @@
         </div>
       </section>
 
-      <section class="section--page">
+      <section class="section--page" id="courses">
         <h2>Courses & Certifications</h2>
         <div class="card--course">
           <a href="https://www.cloudskillsboost.google/public_profiles/62bcc52d-8138-426c-b587-47b9a744337b" target="_blank"><span>🏆 </span>Google Cloud Skills Boost (14 skill badges, 76 labs) - Google</a>
@@ -199,5 +209,6 @@
       <a id="back--to-top" href="#">&#x2191; Go to Top</a>
     </div>
     <script src="../js/theme.js"></script>
+    <script src="../js/dropdown.js"></script>
   </body>
 </html>
