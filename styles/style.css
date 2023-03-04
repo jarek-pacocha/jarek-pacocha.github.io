@@ -134,7 +134,7 @@ img#project--resume-pic{
 
 #socials--list a{
     font-weight: 400;
-    color: var(--secondaryTextColor);
+    color: var(--mainLinkColor);
     font-size: 0.9em;
     transition: 0.3s;
 }
@@ -191,7 +191,7 @@ img#project--resume-pic{
 }
 
 .card--project a, .card--course a{
-    color: var(--mainTextColor);
+    color: var(--mainLinkColor);
     transition: 0.3s;
 }
 
