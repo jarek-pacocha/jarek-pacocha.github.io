@@ -107,6 +107,13 @@ li{
     justify-content: space-between;
 }
 
+img#project--homepage-pic{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--mainBorderColor);
+}
+
 img#project-pic{
     width: 650px;
     max-width: 100%;
@@ -221,7 +228,7 @@ img#project--resume-pic{
 
 /* Dropdown Button */
 .dropbtn {
-    color: var(--secondaryTextColor);
+    color: var(--mainLinkColor);
     padding: 0px;
     font-size: 1em;
     border: none;
@@ -292,6 +299,13 @@ img#project--resume-pic{
     img#project--resume-pic{
         width: 650px;
         max-width: 100%;
+    }
+
+    img#project--homepage-pic{
+        width: 400px;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid var(--mainBorderColor);
     }
 
     #profile-pic{
